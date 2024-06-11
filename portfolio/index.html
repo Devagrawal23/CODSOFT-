@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Deven Agrawal</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="contact">Contact Me</button>
+    </header>
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hello</h1>
+            <h3>I am <span style="color: rgb(0, 229, 255);">Deven Agrawal</span><br>a Frontend Developer</h3>
+            <p>I am a passionate Frontend Developer with a knack for creating dynamic and responsive email templates, webpages, landing pages. With a strong foundation in HTML, CSS, and JavaScript, I enjoy transforming complex problems into elegant and efficient solutions. Take a look at my projects and let's build something great together!</p>
+            <h2 class="resume">Download My Resume</h2>
+            <a href="AgrawalDeven_resume.pdf" class="button" download>Download Resume</a>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="photo">
+            <img src="picture.jpg" alt="Picture of Deven Agrawal">
+        </div>
+        <div class="about-section">
+            <h2 class="heading">About Me</h2>
+            <p> Hi, I’m Deven Agrawal. I would describe myself as a loyal and hardworking professional who understands the importance of professionalism and teamwork during work hours. I graduated in Computer Engineering from Pune University in 2023 and have practical experience in the IT field. During my graduation, I completed two internships. The first internship focused on Artificial Intelligence, and the second was in Salesforce Admin, where I learned about the Salesforce platform and how CRM systems work. Additionally, I have one year of experience as an Application Support Engineer, where I gained expertise in SQL, Shell Scripting, and the Linux operating system. Currently, I am interning at Codsof as a Frontend Developer, showcasing my skills in HTML, CSS, and JavaScript. Thank you for taking the time to read about me.</p>
+        </div>
+    </section>
+    <section id="skills" class="my-skill">
+        <div class="skill">
+            <h1>My Skills</h1>
+            <ul>
+                <li>
+                    <h3>HTML</h3>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+                <li>
+                    <h3>CSS</h3>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+                <li>
+                    <h3>JavaScript</h3>
+                    <span class="bar"><span class="javascript"></span></span>
+                </li>
+                <li>
+                    <h3>SQL</h3>
+                    <span class="bar"><span class="sql"></span></span>
+                </li>
+                <li>
+                    <h3>Linux Operating System</h3>
+                    <span class="bar"><span class="linux"></span></span>
+                </li>
+                <li>
+                    <h3>Shell Scripting</h3>
+                    <span class="bar"><span class="shell"></span></span>
+                </li>
+                <li>
+                    <h3>MS Office</h3>
+                    <span class="bar"><span class="ms-office"></span></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-form-container">
+            <form action="your-form-handler-url" method="post">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number</label>
+                    <input type="tel" id="number" name="number" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/deven-agrawal-906108208/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/Devagrawal23"><i class='bx bxl-github'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">2024 Deven Agrawal | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
